@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class OverlayService {
 
-  baseUrl = "http://localhost";
+  baseUrl = "http://10.10.15.79";
 
   constructor(private http: HttpClient) { }
 
